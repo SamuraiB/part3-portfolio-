@@ -1,0 +1,1 @@
+<label class="checkbox"><input type="checkbox" class="item item_type_checkbox input-xxlarge" id="<?php echo @$content['id']; ?>" name="<?php echo @$content['id']; ?>" value="1" <?php if (get_value(@$content['id']) == true) { ?> checked="checked"<?php } ?>> <?php echo @$content['label']; ?></label>

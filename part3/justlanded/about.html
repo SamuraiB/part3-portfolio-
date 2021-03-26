@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--Page Title-->
+<title>About SamuraiB - Landing Page</title>
+
+<!--Meta Keywords and Description-->
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.ico" title="Favicon" />
+
+<!--Fixes for Internet Explorer CSS3 and HTML5-->
+<!--[if gte IE 9]>
+<style type="text/css">
+	.gradient { filter: none!important;}
+</style>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script>
+  'article aside footer header nav section time'.replace(/\w+/g,function(n){document.createElement(n)})
+</script>
+<![endif]-->
+
+<!--Main CSS-->
+<link rel="stylesheet" href="css/styles.css" media="screen, projection">
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body id="content">
+<!--Start of Landing Page Header-->
+<header>
+<div class="row">
+<div class="inner">
+<!--Start of Header Logo-->
+<div id="logo" class="eight columns">
+<hgroup>
+<h1><img src="images/logo.png" alt="JustLanded" title="JustLanded Landing Page" height="35" width="40">JustLanded</h1>
+<h2>A sweet &amp; easy landing page</h2>
+</hgroup>
+</div>
+<!--End of Header Logo-->
+
+<!--Start of Phone-->
+<aside id="phone" class="four columns">Call us for free! <a href="tel://1-800-394-4333" title="call us for free">1-800-394-4333</a></aside>
+<!--End of Phone-->
+</div>
+</div>
+</header>
+<!--End of Landing Page Header-->
+
+<!--Start of Main Content-->
+<div class="row">
+<article role="main">
+<section>
+<!--Start of Content-->
+<h1>About this amazing landing page</h1>
+
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+<p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+</section>
+<!--End of Content-->
+
+</article>
+</div>
+<!--End of Main Content-->
+
+
+<!--Start of Landing Page Footer-->
+<div class="row">
+<footer role="contentinfo">
+<div id="page_footer">
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Press</a></li>
+</ul>
+
+<!--Start Social Elements-->
+<aside id="social_elements">
+<ul>
+<li><a href="#" class="facebook" title="Facebook"><span>Facebook</span></a></li>
+<li><a href="#" class="googleplus" title="Google+"><span>Google+</span></a></li>
+<li><a href="#" class="twitter" title="Twitter"><span>Twitter</span></a></li>
+<li><a href="#" class="stumbleupon" title="StumbleUpon"><span>StumbleUpon</span></a></li>
+<li><a href="#" class="feedback" title="Feedback"><span>Feedback</span></a></li>
+</ul>
+</aside>
+<!--End Social Elements-->
+
+<p>
+&copy; JustLanded Landing Page 2012. All rights reserved.
+</p>
+</div>
+</footer>
+</div>
+<!--End of Landing Page Footer-->
+
+<!--Beginning of Contact form-->
+<div id="contact" class="reveal-modal medium">
+    <a href="javascript:closecontact();" id="contact_close"><span>Close</span></a>
+    <div id="contactmessages"></div>
+    <div id="formwrapper">
+        <form method="post" action="contact.php" id="contactform">
+            <label>Your Name</label>
+            <input id="contactname" name="name" required>
+            <label>Your Email</label>
+            <input id="contactemail" name="email" type="email" required>
+            <label>Your Message</label>
+            <textarea name="message" required></textarea>
+            <label>What is <span id="captcha">???</span> (Anti-spam)</label>
+            <input id="humanornot" name="humanornot" placeholder="Type Here" required>
+            <input name="s" id="s" value="blank" type="hidden">
+            <input id="submitcontact" name="submit" type="submit" value="Submit" class="gradient">
+        </form>
+    </div>
+</div>
+<!--End of Contact form-->
+<a href="#" class="scrollup">Scroll up</a>
+<!-- Included JS Files (Compressed) -->
+<script src="js/foundation.min.js"></script>
+<script src="js/phrases.js"></script>
+<script src="js/site.min.js"></script>
+</body>
+</html>
